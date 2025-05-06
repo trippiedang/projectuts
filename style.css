@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    color: #333;
+    background-image: url(carbon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 960px;
+}
+
+header {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.services-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.services-table th, .services-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.services-table th {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+#location-map {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.promo-frame {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
